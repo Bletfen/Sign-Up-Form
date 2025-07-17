@@ -6,7 +6,8 @@ export default function Trial() {
       px-[6.6rem]
       rounded-[1rem] 
       bg-[#5e54a4] 
-      shadow-[0_0.8rem_0_0_rgba(0,0,0,0.15)]"
+      shadow-[0_0.8rem_0_0_rgba(0,0,0,0.15)]
+      xl:px-[11.2rem]"
     >
       <p
         className="text-center 

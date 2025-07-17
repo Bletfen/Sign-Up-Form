@@ -25,12 +25,13 @@ export default function SignUp() {
   }
   const signUpForm = ["First Name", "Last Name", "Email Address", "Password"];
   return (
-    <div className="flex flex-col gap-[2.4rem] w-full">
+    <div className="flex flex-col gap-[2.4rem]">
       <Trial />
       <form
         action="/signup"
         className="flex flex-col gap-[1.6rem] p-[2.4rem] bg-[#fff]
-        rounded-[1rem] shadow-[0_0.8rem_0_0_rgba(0,0,0,0.15)]"
+        rounded-[1rem] shadow-[0_0.8rem_0_0_rgba(0,0,0,0.15)]
+        xl: p-[4rem] xl:gap-[2rem]"
         onSubmit={handleSubmit}
       >
         {signUpForm.map((form) => {
@@ -38,7 +39,9 @@ export default function SignUp() {
             <div key={form}>
               <div
                 className="py-[1.5rem] border-solid border border-[#dedede]
-              rounded-[0.5rem] pl-[1.9rem] flex flex-row justify-between pr-[2.7rem]"
+              rounded-[0.5rem] pl-[1.9rem] 
+              flex flex-row justify-between pr-[2.7rem]
+              "
               >
                 <input
                   type="text"
