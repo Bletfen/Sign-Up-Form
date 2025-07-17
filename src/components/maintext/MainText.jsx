@@ -1,15 +1,15 @@
 export default function MainText() {
   return (
-    <div class="flex flex-col text-center gap-[1.6rem]">
+    <div className="flex flex-col text-center gap-[1.6rem]">
       <h1
-        class="text-white text-[2.8rem] 
+        className="text-white text-[2.8rem] 
         font-bold leading-[3.6rem]
-        tracking-tighter-[-0.292px]"
+        tracking-[-0.292px]"
       >
         Learn to code by watching others
       </h1>
       <p
-        class="text-white text-[1.6rem]
+        className="text-white text-[1.6rem]
         font-medium leading-[2.6rem]
         mb-[6.4rem]"
       >
