@@ -30,7 +30,7 @@ export default function SignUp() {
             </div>
           );
         })}
-        <div>
+        <div className="flex flex-col w-full text-center gap-[0.8rem]">
           <button
             className="py-[1.5rem] px-[4.4rem] text-center
             bg-[#38cc8B]
@@ -41,9 +41,12 @@ export default function SignUp() {
           >
             CLAIM YOUR FREE TRIAL
           </button>
-          <p>
+          <p className="text-[#bab7d4] text-[1.1rem] font-[500] leading-[2.1rem]">
             By clicking the button, you are agreeing to our
-            <span>Terms and Services</span>
+            <span className="font-[700] text-[#ff7979]">
+              {" "}
+              Terms and Services
+            </span>
           </p>
         </div>
       </form>
