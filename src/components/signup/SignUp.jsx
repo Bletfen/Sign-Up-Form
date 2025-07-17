@@ -25,7 +25,7 @@ export default function SignUp() {
   }
   const signUpForm = ["First Name", "Last Name", "Email Address", "Password"];
   return (
-    <div className="flex flex-col gap-[2.4rem]">
+    <div className="flex flex-col gap-[2.4rem] w-full">
       <Trial />
       <form
         action="/signup"

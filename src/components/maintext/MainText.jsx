@@ -1,6 +1,6 @@
 export default function MainText() {
   return (
-    <div className="flex flex-col text-center gap-[1.6rem] max-w-[54rem] xl:text-start">
+    <div className="flex flex-col text-center gap-[1.6rem] max-w-[52.5rem] xl:text-start">
       <h1
         className="text-white text-[2.8rem] 
         font-bold leading-[3.6rem]
