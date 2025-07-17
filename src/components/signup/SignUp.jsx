@@ -31,7 +31,7 @@ export default function SignUp() {
         action="/signup"
         className="flex flex-col gap-[1.6rem] p-[2.4rem] bg-[#fff]
         rounded-[1rem] shadow-[0_0.8rem_0_0_rgba(0,0,0,0.15)]
-        xl: p-[4rem] xl:gap-[2rem]"
+        xl:p-[4rem] xl:gap-[2rem]"
         onSubmit={handleSubmit}
       >
         {signUpForm.map((form) => {
@@ -89,7 +89,11 @@ export default function SignUp() {
                 )}
               </div>
               {errors[form] ? (
-                <p className="text-right font-[1.1rem] text-[#ff7979] italic font-[500] mt-[0.6rem]">
+                <p
+                  className="text-right font-[1.1rem] 
+                  text-[#ff7979] italic font-[500] mt-[0.6rem]
+                 "
+                >
                   {errors[form]}
                 </p>
               ) : (
@@ -109,9 +113,9 @@ export default function SignUp() {
           >
             CLAIM YOUR FREE TRIAL
           </button>
-          <p className="text-[#bab7d4] text-[1.1rem] font-[500] leading-[2.1rem]">
+          <p className="text-[#bab7d4] text-[1.1rem] font-[500] leading-[2.1rem] xl:leading-[2.6rem] px-[1.5rem]">
             By clicking the button, you are agreeing to our
-            <span className="font-[700] text-[#ff7979]">
+            <span className="font-[700] text-[#ff7979] cursor-[pointer]">
               {" "}
               Terms and Services
             </span>
