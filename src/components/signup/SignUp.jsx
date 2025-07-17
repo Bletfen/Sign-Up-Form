@@ -35,9 +35,8 @@ export default function SignUp() {
       >
         {signUpForm.map((form) => {
           return (
-            <div>
+            <div key={form}>
               <div
-                key={form}
                 className="py-[1.5rem] border-solid border border-[#dedede]
               rounded-[0.5rem] pl-[1.9rem] flex flex-row justify-between pr-[2.7rem]"
               >

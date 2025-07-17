@@ -16,3 +16,9 @@ body {
   min-height: 100vh;
   padding: 0rem 2.4rem;
 }
+
+@media only screen and (min-width: 90rem) {
+  body {
+    background-image: url(/images/bg-intro-desktop.png);
+  }
+}
