@@ -104,6 +104,7 @@ export default function SignUp() {
         })}
         <div className="flex flex-col w-full text-center gap-[0.8rem]">
           <button
+            type="submit"
             className="py-[1.5rem] px-[4.4rem] text-center
             bg-[#38cc8B]
             shadow-[0_-0.4rem_0_0_rgba(0,0,0,0.09)_inset]
