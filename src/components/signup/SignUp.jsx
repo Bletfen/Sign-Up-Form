@@ -44,7 +44,7 @@ export default function SignUp() {
               "
               >
                 <input
-                  type="text"
+                  type={form === "Password" ? "password" : "text"}
                   id={form}
                   name={form}
                   placeholder={form}
